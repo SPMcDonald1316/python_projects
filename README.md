@@ -21,4 +21,8 @@ Project 4 ~ Countdown Timer
   - user inputs time in seconds  
   - timer counts down and displays message  
   - uses time library sleep function to pause  
-  while loop at 1 sec increments as loop counts down to 0
+  while loop at 1 sec increments as loop counts down to 0  
+
+Project 5 ~ Password Generator  
+  - user inputs number of passwords, and length of each password  
+  - use random library to pick a char from allowed chars string to create password
