@@ -13,6 +13,12 @@ Project 2 ~ Renaming Bulk Files
   - using os library renames all files in directory  
 
 Project 3 ~ Weather App  
-  - simple app to fetch data from openweathermap api  
+  - fetch data from openweathermap api  
   - user input city name, returns weather data  
   - use requests to fetch data, use pprint to clean up json response  
+
+Project 4 ~ Countdown Timer  
+  - user inputs time in seconds  
+  - timer counts down and displays message  
+  - uses time library sleep function to pause  
+  while loop at 1 sec increments as loop counts down to 0
