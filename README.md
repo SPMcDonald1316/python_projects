@@ -10,4 +10,9 @@ Project 1 ~ Web Scraper
 Project 2 ~ Renaming Bulk Files  
   - script to rename all files in a directory  
   - takes user input for path, new name, and extension  
-  - using os library renames all files in directory
+  - using os library renames all files in directory  
+
+Project 3 ~ Weather App  
+  - simple app to fetch data from openweathermap api  
+  - user input city name, returns weather data  
+  - use requests to fetch data, use pprint to clean up json response  
