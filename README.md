@@ -25,4 +25,8 @@ Project 4 ~ Countdown Timer
 
 Project 5 ~ Password Generator  
   - user inputs number of passwords, and length of each password  
-  - use random library to pick a char from allowed chars string to create password
+  - use random library to pick a char from allowed chars string to create password  
+
+Project 6 ~ QR Code Generator and Reader  
+  - use qrcode library to create and style qrcode  
+  - use pyzbar library to read created qrcode
