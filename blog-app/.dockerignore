@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+
+# pyenv
+.python-version
+.pyenv/
+
+# Django specific
+*.log
+*.pot
+db.sqlite3
+media/
+staticfiles/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Docker specific
+.dockerignore
+Dockerfile*
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Git
+.git
+.gitignore
