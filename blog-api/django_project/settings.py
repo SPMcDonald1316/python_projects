@@ -12,8 +12,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 
-import accounts
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -41,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # 3rd Party
     "rest_framework",
+    "corsheaders",
     # Local
     "accounts",
     "posts",
@@ -49,6 +48,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -136,3 +136,10 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.AllowAny",
     ]
 }
+
+CORS_ORIGIN_WHITELIST = (
+    "http://localhost:5173",
+    "http://localhost:8000",
+)
+
+CSRF_TRUSTED_ORIGINS = ["http://localhost:5173"]
