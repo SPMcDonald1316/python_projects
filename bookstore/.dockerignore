@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+.pyenv/
+
+# Django specific
+*.log
+db.sqlite3
+/media
+/staticfiles
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PostgreSQL data
+pgdata/
+postgres_data/
+
+# Docker specific
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Git
+.git/
+.gitignore
