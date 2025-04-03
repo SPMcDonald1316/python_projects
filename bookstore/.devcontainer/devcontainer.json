@@ -1,0 +1,29 @@
+{
+  "name": "Python Bookstore Dev Container",
+  "dockerComposeFile": "compose.yml",
+  "service": "web",
+  "workspaceFolder": "/bookstore",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-python.flake8",
+        "ms-python.black-formatter",
+        "ms-ossdata.vscode-postgresql"
+      ],
+      "settings": {
+        "python.analysis.autoImportCompletions": true,
+        "python.linting.enabled": true,
+        "python.linting.flake8Enabled": true,
+        "python.formatting.provider": "black",
+        "[python]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "ms-python.black-formatter"
+        }
+      }
+    }
+  }
+}
