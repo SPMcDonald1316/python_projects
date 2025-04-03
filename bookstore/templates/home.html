@@ -6,6 +6,7 @@
 <h1>This is our home page.</h1>
 {% if user.is_authenticated %}
 <p>Hi {{ user.email }}!</p>
+<p><a href="{% url 'logout' %}">Log Out</a></p>
 {% else %}
 <p>Yo are not logged in</p>
 <a href="{% url 'login' %}">Log In</a>
