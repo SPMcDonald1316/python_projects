@@ -1,6 +1,6 @@
 {
   "name": "Python Bookstore Dev Container",
-  "dockerComposeFile": "compose.yml",
+  "dockerComposeFile": "../compose.yml",
   "service": "web",
   "workspaceFolder": "/bookstore",
   "customizations": {
